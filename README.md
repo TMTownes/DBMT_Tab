@@ -1,2 +1,2 @@
 # Abundant_Gardens
-Project 2: Build an App
+Project 2: Abundant Gardens
