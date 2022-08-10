@@ -17,10 +17,10 @@ The Live Well Partner Journey:
     
 Core Functionalities:
   - Ability to login as household or partner
-  -GPS locator
-  -QR access code/tracker
-  -Partner ability to open/close pickup windows and initiate "food queue"
-  -Ratings filter
+  - GPS locator
+  - QR access code/tracker
+  - Partner ability to open/close pickup windows and initiate "food queue"
+  - Ratings filter
   
  Reach Functionalities:
   -Options for delivery
