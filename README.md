@@ -2,32 +2,34 @@
 Project 2: Abundant Gardens
 
 Summary:
-Food, the paradox! We all need it, we all love it, we don't all have access to it, and we also waste it! The USDA estimates that about 1lb of food per person in the United States is wasted each day. Yet, over 40 million families in the United States are unable to put dinner on the table. Counties, like San Diego, who implement federal SNAP programs (food stamps) often partner with local businesses and food banks to help supplement food resources for low-income families and individuals. Abundant Gardens aims to provide an interface for CalFresh (CF) customers to easily access surplus meals from participating county restaurants and businesses.
+  Food, the paradox! We all need it, we all love it, but we don't all have access to it, and we also waste it! The USDA estimates that about 1lb of food per person in the United States is wasted each day. Yet, over 40 million families in the United States are unable to put dinner on the table. Counties, like San Diego, who implement federal SNAP programs (food stamps) often partner with local businesses and food banks to help supplement food resources for low-income families and individuals. Abundant Gardens aims to provide an interface for CalFresh (CF) customers to easily access surplus meals from participating Live Well County Partner restaurants. The purpose is to bridge the ever growing divide between food scarcity and food waste in ours communities.
 
-The Customer Journey:
-An existing CF customer can long into their profile and find a GPS map of all participating restaurants in the county. Restaurants will be organized by a star rating system tracking: Food Quality, Owner of Restaurant, Amount of times they donated food instead of throwing it out, Total amount (lbs) of food donated, etc
+The Household Journey:
+  An existing CF customer can log into their profile which is linked to a unique case number assigned at the initial eligibility determination for the SNAP program. Households can then find a GPS map of all participating restaurants in the county. Each household will be assigned a personalized QR code to track their usage and confirm pick ups of resources. 
 
-I want <some feature>
-GPS Location (for local participating restaurants or food trucks)
-A place to write and read comments(maybe rate the restaurants/food as well)
-Personalized QR Code for each household (to track their usage of the app)
-Ability to follow other users
-Options for delivery
-
-  
-
-On the restaurant user side, owners/employees can log how much food (Ibs) they have at the end of the day.
-Times where families can go and grab food, kind of the events
-Ability to create an account as either a user or a restaurant
-Users would consist of the low-income families that need the help to get food on their table. The create account screen/script can have the user enter yearly or monthly income to check if they are eligible for the program, number of total house residents (kids, relatives, spouses, etc.), location of home (so our gps location can point out restaurants in their general area in a mile radius)
-Restaurants accounts would consist any food establishments who would like to help with the cause. The create account screen/scripts could include location of the restaurant (to give the users), maybe a general estimate of how much food they have left over on a daily basis, (add anything else you guys would like!)
-
-So that <some reason>
-We want our app to help low income families struggling to have basic needs, like food
-to eat. We want the app to be a community, so that people in like situations can connect
-and help each other.
+The Live Well Partner Journey: 
+  Restaurants can log how much food (lbs) they have at the end of the day. Partners can also post pick up windows after business hours that will queue households by QR. Restaurants will be organized by a star rating system: 
+    -Food Quality
+    -Live Well rating
+    -Amount of times they donated food instead of throwing it out 
+    -Total amount (lbs) of food donated
+    -User reviews/ratings
+    
+Core Functionalities:
+  - Ability to login as household or partner
+  -GPS locator
+  -QR access code/tracker
+  -Partner ability to open/close pickup windows and initiate "food queue"
+  -Ratings filter
   
  Reach Functionalities:
+  -Options for delivery
   - Add food banks
-
+  - Restaurants can place themselves in a category when they sign up
+      (Mexican cuisine, Asian Fusion, BBQ, TexMex, American cuisine, etc.) so that
+      the households can input food preferences and be matched accordingly.
+  - Users are able to input allergies/food restrictions
+  - Users can leave a review that evaluates ease of pickup, satisfaction with
+      food provided, and maybe even tips for other families picking up from this
+      location.
 
