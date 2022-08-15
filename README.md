@@ -21,15 +21,11 @@ Core Functionalities:
   - QR access code/tracker
   - Partner ability to open/close pickup windows and initiate "food queue"
   - Ratings filter
-  
- Reach Functionalities:
   - Options for delivery
   - Add food banks
   - Restaurants can place themselves in a category when they sign up
       (Mexican cuisine, Asian Fusion, BBQ, TexMex, American cuisine, etc.) so that
       the households can input food preferences and be matched accordingly.
   - Users are able to input allergies/food restrictions
-  - Users can leave a review that evaluates ease of pickup, satisfaction with
-      food provided, and maybe even tips for other families picking up from this
-      location.
+  - Users can leave a review that evaluates ease of pickup, satisfaction with food provided, and maybe even tips for other families picking up from this location.
 
