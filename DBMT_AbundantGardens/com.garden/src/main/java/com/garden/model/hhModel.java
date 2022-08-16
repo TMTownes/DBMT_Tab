@@ -7,13 +7,19 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class hhModel {
-	
-	private String caseNum;
-	private String caseName;
-	private String hhPassword;
-	private String status;
-	private String penalities;
-	
 
-}
+@Table(name = "households")
+public class hhModel {
+
+    @Id
+    @Column(name = "caseNum")
+
+    private String caseNum;
+    @Column(name = "caseName")
+    private String caseName;
+    @Column(name = "casePassword")
+    private String casePassword;
+    @Column(name = "status")
+    private String status;
+    @Column(name = "penalties")
+    private String penalities;
