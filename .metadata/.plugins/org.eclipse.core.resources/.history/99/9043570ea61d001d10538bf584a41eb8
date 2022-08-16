@@ -1,0 +1,28 @@
+package com.garden.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+
+@Entity 
+
+@Table(name = "households")
+public class hhModel {
+	
+	@Id
+	@Column(name = "caseNum")
+	
+	private String caseNum;
+	@Column(name = "caseName")
+	private String caseName;
+	@Column(name = "casePassword")
+	private String casePassword;
+	private String status;
+	private String penalities;
+	
+
+} // hhModel()
