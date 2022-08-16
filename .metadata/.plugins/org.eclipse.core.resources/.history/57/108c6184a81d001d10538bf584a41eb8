@@ -23,5 +23,3 @@ public class hhModel {
     private String status;
     @Column(name = "penalties")
     private String penalities;
-    
-}
