@@ -2,7 +2,7 @@
 Project 2: Abundant Gardens
 
 Summary:
-  Abundant Gardens is a dynamic website (and potential mobile application) to connect CalFresh households in San Diego with free food resources from participating restaurants throughout the county. The application allows partnered restaurants to add surplus food resources to a "food queue" that verified CalFresh households can pick up within a specified time block. Once entered into the queue, households may pick up surplus meals using a unique QR code matched by the restaurant at the time of pick up. The purpose of the application is to help aleviate food waste while simultaneously supporting the San Diego Live Well model to promote thriving households in the area.
+  Abundant Gardens is a dynamic website and mobile application to connect CalFresh households in San Diego with free food resources from participating restaurants throughout the county. The application allows partnered restaurants to add surplus food resources to a "food queue" that verified CalFresh households can pick up within a specified time block. Once entered into the queue, households may pick up surplus meals using a unique QR code matched by the restaurant at the time of pick up. The purpose of the application is to help aleviate food waste while simultaneously supporting the San Diego Live Well model to promote thriving households in the area.
   
   
  The Pitch:
