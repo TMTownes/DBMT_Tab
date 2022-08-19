@@ -1,13 +1,16 @@
 package com.garden.repository;
 
 import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import com.garden.model.hhModel;
 
-public interface hhRepository {
+public interface hhRepository extends JpaRepository<hhModel, Integer>{
 	
 	List<hhModel> findAllhh();
 	
-	void save(hhModel househould);
+	<S extends hhModel>  S save(S entity);
 	
 	hhModel manageInvitation();
 	

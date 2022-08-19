@@ -12,6 +12,8 @@ public class AbundantGardensApplication {
 		SpringApplication.run(AbundantGardensApplication.class, args);
 	}
 
+	// Here's where the rest part goes, I don't know if we need it yet
+	// but I'll keep it here as a place holder
 	@Bean
 	public RestTemplate restTemplate() {
 		return null;

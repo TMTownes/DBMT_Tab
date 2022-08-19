@@ -31,4 +31,4 @@ public class hhModel {
     @Column(name = "penalties")
     private String penalities;
     
-}
+} // hhModel()
