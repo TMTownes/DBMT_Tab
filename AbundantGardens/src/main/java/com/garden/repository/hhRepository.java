@@ -18,5 +18,8 @@ public interface hhRepository extends JpaRepository<hhModel, Integer>{
 	
 	hhModel rateRestaurant();
 	
+	hhModel findByCaseNum(int caseNum);
+	
+	List<hhModel> findByStatus();
 
 }

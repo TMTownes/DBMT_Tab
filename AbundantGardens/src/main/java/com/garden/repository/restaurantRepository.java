@@ -14,7 +14,7 @@ public interface restaurantRepository extends JpaRepository<restaurantModel, Int
 	
 	void deleteById(int id);
 	
-	restaurantModel findById();
+	restaurantModel findById(int id);
 	
 	restaurantModel insertFood(int food);
 	
