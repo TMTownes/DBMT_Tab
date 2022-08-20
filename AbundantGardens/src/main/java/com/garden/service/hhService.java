@@ -1,4 +1,6 @@
 package com.garden.service;
+
+// import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,12 +21,12 @@ public class hhService {
 
 	public List<hhModel> findAllhh() {
 		
-		return this.hhRepo.findAllhh();
+		return this.hhRepo.findAll();
 	}
 	
-	public hhModel findByCaseNum(int caseNum) {
+	public hhModel findByCaseNum(String casenum) {
 		
-		return this.hhRepo.findByCaseNum(caseNum);
+		return this.hhRepo.findByCaseNum(casenum);
 	}
 	
 	public void save(hhModel household) {
@@ -47,8 +49,13 @@ public class hhService {
 		return this.hhRepo.rateRestaurant();
 	}
 	
-	public List<hhModel> findByStatus() {
+	public List<hhModel> findByStatus(String status) {
 		
-		return this.hhRepo.findByStatus();
+		return this.hhRepo.findByStatus(status);
+	}
+	
+	public hhModel findById(int id) {
+		
+		return this.hhRepo.findById(id);
 	}
 }

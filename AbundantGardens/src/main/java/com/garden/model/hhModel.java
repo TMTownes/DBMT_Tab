@@ -2,8 +2,14 @@ package com.garden.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+// import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+
+// import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,16 +22,21 @@ import lombok.NoArgsConstructor;
 @Entity
 
 @Table(name = "households")
+// @EntityListeners(AuditingEntityListener.class)
 public class hhModel {
 
-    @Id
+	@Id
+	@Column(name = "hhId")
+	
+	@GeneratedValue(generator = "hh_id_seq", strategy = GenerationType.AUTO)
+	@SequenceGenerator(allocationSize = 1, name = "hh_id_seq")
+	private int hhid;
     @Column(name = "caseNum")
-
-    private String caseNum;
+    private String casenum;
     @Column(name = "caseName")
-    private String caseName;
+    private String casename;
     @Column(name = "casePassword")
-    private String casePassword;
+    private String casepassword;
     @Column(name = "status")
     private String status;
     @Column(name = "penalties")

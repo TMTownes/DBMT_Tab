@@ -53,4 +53,9 @@ public class restaurantService {
 		
 		return this.restaurantRepo.closeQueue();
 	}
+	
+	public restaurantModel sendInvitation() {
+		
+		return this.restaurantRepo.sendInvitation();
+	}
 }
