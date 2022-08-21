@@ -1,5 +1,7 @@
 package com.garden.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,7 +22,7 @@ import lombok.NoArgsConstructor;
 
 @Table(name = "restaurants")
 
-public class restaurantModel {
+public class restaurantModel /* implements Serializable */{
 	
 	@Id
 	@Column(name = "restId")

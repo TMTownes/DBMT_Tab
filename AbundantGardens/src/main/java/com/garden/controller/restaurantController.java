@@ -2,6 +2,8 @@ package com.garden.controller;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -17,7 +19,7 @@ import com.garden.model.restaurantModel;
 import com.garden.service.restaurantService;
 
 @RestController("restaurantController")
-
+@Entity
 @RequestMapping(path = "/restaurant")
 public class restaurantController {
 	

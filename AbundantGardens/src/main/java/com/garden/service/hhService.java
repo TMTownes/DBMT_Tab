@@ -3,12 +3,15 @@ package com.garden.service;
 // import java.util.Collections;
 import java.util.List;
 
+import javax.persistence.Entity;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.garden.model.hhModel;
 import com.garden.repository.hhRepository;
 
+@Entity
 @Service("hhService")
 public class hhService {
 	

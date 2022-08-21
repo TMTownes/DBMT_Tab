@@ -1,5 +1,7 @@
 package com.garden.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 // import javax.persistence.EntityListeners;
@@ -23,7 +25,7 @@ import lombok.NoArgsConstructor;
 
 @Table(name = "households")
 // @EntityListeners(AuditingEntityListener.class)
-public class hhModel {
+public class hhModel /* implements Serializable */{
 
 	@Id
 	@Column(name = "hhId")
