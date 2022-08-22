@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.Entity;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Repository;
 import com.garden.model.hhModel;
 
 // @Entity
-@Repository
+// @Repository
 public interface hhRepository extends JpaRepository<hhModel, Integer>{
 	
 	List<hhModel> findAllhh();

@@ -9,8 +9,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"com.garden.model", "com.garden.repository", "com.garden.controller", "com.garden.service"})
-@EnableJpaRepositories("com.garden.repository")
+// @EntityScan(basePackages = {"com.garden.model", "com.garden.repository", "com.garden.controller", "com.garden.service"})
+// @EnableJpaRepositories("com.garden.repository")
 public class AbundantGardensApplication {
 	
 	public static void main(String[] args) {

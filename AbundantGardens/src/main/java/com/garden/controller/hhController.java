@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,8 +21,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("hhController")
+// @RestController("hhController")
 // @Entity
+@Controller(value = "hhController")
 @RequestMapping(path = "/hh")
 public class hhController {
 
@@ -34,10 +36,10 @@ public class hhController {
 		return this.hhService.findAllhh();
 	}
 	
-	@GetMapping(path = "/{caseNum}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<hhModel> findByCaseNum(@PathVariable String caseNum) {
+	@GetMapping(path = "/{casenum}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<hhModel> findByCaseNum(@PathVariable String casenum) {
 		
-		return new ResponseEntity<hhModel>(this.hhService.findByCaseNum(caseNum), HttpStatus.OK);
+		return new ResponseEntity<hhModel>(this.hhService.findByCaseNum(casenum), HttpStatus.OK);
 	}
 	
 	@PostMapping(path = "/savehh", consumes = MediaType.APPLICATION_JSON_VALUE)
