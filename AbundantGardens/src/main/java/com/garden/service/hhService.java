@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.garden.model.hhModel;
 import com.garden.repository.hhRepository;
 
-@Entity
+// @Entity
 @Service("hhService")
 public class hhService {
 	

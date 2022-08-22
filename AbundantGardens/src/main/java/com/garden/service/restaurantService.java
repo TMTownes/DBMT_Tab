@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import com.garden.model.restaurantModel;
 import com.garden.repository.restaurantRepository;
 
-@Entity
+// @Entity
 @Service("restaurantService")
 public class restaurantService {
 	

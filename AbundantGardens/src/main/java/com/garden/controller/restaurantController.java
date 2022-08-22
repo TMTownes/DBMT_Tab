@@ -19,7 +19,7 @@ import com.garden.model.restaurantModel;
 import com.garden.service.restaurantService;
 
 @RestController("restaurantController")
-@Entity
+// @Entity
 @RequestMapping(path = "/restaurant")
 public class restaurantController {
 	

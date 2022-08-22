@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import com.garden.model.restaurantModel;
 
-@Entity
+// @Entity
 @Repository
 public interface restaurantRepository extends JpaRepository<restaurantModel, Integer>{
 	

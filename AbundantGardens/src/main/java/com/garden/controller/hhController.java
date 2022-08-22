@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController("hhController")
-@Entity
+// @Entity
 @RequestMapping(path = "/hh")
 public class hhController {
 

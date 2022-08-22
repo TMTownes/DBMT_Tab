@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import com.garden.model.hhModel;
 
-@Entity
+// @Entity
 @Repository
 public interface hhRepository extends JpaRepository<hhModel, Integer>{
 	
